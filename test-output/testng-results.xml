@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-23T16:20:03 IST" name="Default suite" finished-at="2025-10-23T16:21:05 IST" duration-ms="61626">
+    <groups>
+    </groups>
+    <test started-at="2025-10-23T16:20:03 IST" name="Default test" finished-at="2025-10-23T16:21:05 IST" duration-ms="61626">
+      <class name="com.HRM.TestCase.AdminPageTestCase">
+        <test-method is-config="true" signature="configure()[pri:0, instance:com.HRM.TestCase.AdminPageTestCase@4c583ecf]" started-at="2025-10-23T16:20:03 IST" name="configure" finished-at="2025-10-23T16:20:14 IST" duration-ms="11455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testMenus()[pri:1, instance:com.HRM.TestCase.AdminPageTestCase@4c583ecf]" started-at="2025-10-23T16:20:14 IST" name="testMenus" finished-at="2025-10-23T16:20:35 IST" duration-ms="20322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenus -->
+        <test-method signature="testSearchWithUserName()[pri:2, instance:com.HRM.TestCase.AdminPageTestCase@4c583ecf]" started-at="2025-10-23T16:20:35 IST" name="testSearchWithUserName" finished-at="2025-10-23T16:20:45 IST" duration-ms="9807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchWithUserName -->
+        <test-method signature="testSearchWithUserRole()[pri:3, instance:com.HRM.TestCase.AdminPageTestCase@4c583ecf]" started-at="2025-10-23T16:20:45 IST" name="testSearchWithUserRole" finished-at="2025-10-23T16:20:55 IST" duration-ms="10067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchWithUserRole -->
+        <test-method signature="testSearchWithUserStatus()[pri:4, instance:com.HRM.TestCase.AdminPageTestCase@4c583ecf]" started-at="2025-10-23T16:20:55 IST" name="testSearchWithUserStatus" finished-at="2025-10-23T16:21:04 IST" duration-ms="9715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchWithUserStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.HRM.TestCase.AdminPageTestCase@4c583ecf]" started-at="2025-10-23T16:21:04 IST" name="close" finished-at="2025-10-23T16:21:05 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.HRM.TestCase.AdminPageTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
