@@ -23,7 +23,7 @@ public class LoginPageTestCase extends BaseClass {
     @Test(dataProvider = "loginData")
     public void performLogin(String username, String password) {
     	 String actUrl = lp.login(username, password);
-    	 System.out.println("Username:"+username+"/"+"Password"+password);
+    	System.out.println("Username:"+username+"/"+"Password"+password);
     	 
     	 
     	CommonUtility.captureScreenShot(driver, username);

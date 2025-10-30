@@ -30,6 +30,7 @@ public class LoginPage {
 		driver.findElement(userName).sendKeys(un);
 		driver.findElement(password).sendKeys(pw);
 		driver.findElement(loginBtn).click();
+		CommonUtility.waitForWhile(3000);
 		CommonUtility.captureScreenShot(driver,"Login Data Added");
 		return driver.getCurrentUrl();
 		

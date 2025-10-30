@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.HRM.Testlisteners.ExtentITestNGListeners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="LoginTest(failed)">
     <classes>
       <class name="com.HRM.TestCase.LoginPageTestCase">
         <methods>
@@ -14,5 +14,5 @@
         </methods>
       </class> <!-- com.HRM.TestCase.LoginPageTestCase -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

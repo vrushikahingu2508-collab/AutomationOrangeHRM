@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.HRM.TestCase.AdminPageTestCase">
+      <class name="com.HRM.TestCase.LoginPageTestCase">
         <methods>
           <include name="configure"/>
-          <include name="testMenus"/>
           <include name="close"/>
-          <include name="testSearchWithUserRole"/>
-          <include name="testSearchWithUserName"/>
-          <include name="testSearchWithUserStatus"/>
+          <include name="performLogin" invocation-numbers="1 2 3 4"/>
         </methods>
-      </class> <!-- com.HRM.TestCase.AdminPageTestCase -->
+      </class> <!-- com.HRM.TestCase.LoginPageTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

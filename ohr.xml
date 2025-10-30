@@ -5,9 +5,14 @@
 <listeners>
 		<listener class-name="com.HRM.Testlisteners.ExtentITestNGListeners"></listener>
 </listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="LoginTest">
     <classes>
       <class name="com.HRM.TestCase.LoginPageTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="AdminTest">
+    <classes>
+      <class name="com.HRM.TestCase.AdminPageTestCase"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
